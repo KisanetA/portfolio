@@ -67,3 +67,20 @@ window.onclick = function(event) {
     modal4.style.display = "none";
   }
 }
+
+//  5
+
+var modal5 = document.getElementById("myModal5");
+var btn5 = document.getElementById("myBtn5");
+var span5 = document.getElementsByClassName("close5")[0];
+btn4.onclick = function() {
+  modal5.style.display = "block";
+}
+span5.onclick = function() {
+  modal5.style.display = "none";
+}
+window.onclick = function(event) {
+  if (event.target == modal5) {
+    modal5.style.display = "none";
+  }
+}
