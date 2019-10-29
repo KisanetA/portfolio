@@ -73,7 +73,7 @@ window.onclick = function(event) {
 var modal5 = document.getElementById("myModal5");
 var btn5 = document.getElementById("myBtn5");
 var span5 = document.getElementsByClassName("close5")[0];
-btn4.onclick = function() {
+btn5.onclick = function() {
   modal5.style.display = "block";
 }
 span5.onclick = function() {
@@ -82,5 +82,21 @@ span5.onclick = function() {
 window.onclick = function(event) {
   if (event.target == modal5) {
     modal5.style.display = "none";
+  }
+}
+
+// 6
+var modal6 = document.getElementById("myModal6");
+var btn6 = document.getElementById("myBtn6");
+var span6 = document.getElementsByClassName("close6")[0];
+btn6.onclick = function() {
+  modal6.style.display = "block";
+}
+span6.onclick = function() {
+  modal6.style.display = "none";
+}
+window.onclick = function(event) {
+  if (event.target == modal6) {
+    modal6.style.display = "none";
   }
 }
